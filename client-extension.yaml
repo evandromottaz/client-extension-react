@@ -1,9 +1,9 @@
 assemble:
     - from: vite-build
       into: static
-train-tracker-web:
-    friendlyURLMapping: train-tracker-web
-    htmlElementName: train-tracker-web
+client-extension-react:
+    friendlyURLMapping: client-extension-react
+    htmlElementName: client-extension-react
     instanceable: false
     name: Train Tracker Web
     portletCategoryName: category.client-extensions

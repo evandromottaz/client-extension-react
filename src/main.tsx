@@ -17,7 +17,7 @@ class WebComponent extends HTMLElement {
 	}
 }
 
-const ELEMENT_NAME = "train-tracker-web";
+const ELEMENT_NAME = "client-extension-react";
 
 if (customElements.get(ELEMENT_NAME)) {
 	console.log(`Skipping registration for <${ELEMENT_NAME}> (already registered)`);
