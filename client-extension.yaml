@@ -1,0 +1,13 @@
+assemble:
+    - from: vite-build
+      into: static
+train-tracker-web:
+    friendlyURLMapping: train-tracker-web
+    htmlElementName: train-tracker-web
+    instanceable: false
+    name: Train Tracker Web
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        - assets/*.js
+    useESM: true

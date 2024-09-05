@@ -1,0 +1,17 @@
+{
+  "com.liferay.client.extension.type.configuration.CETConfiguration~train-tracker-web" : {
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/train-tracker-web",
+    "buildTimestamp" : 1725562858399,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "name" : "Train Tracker Web",
+    "projectId" : "traintrackerweb",
+    "projectName" : "train-tracker-web",
+    "properties" : [ ],
+    "sourceCodeURL" : "",
+    "type" : "customElement",
+    "typeSettings" : [ "friendlyURLMapping=train-tracker-web", "instanceable=false", "urls=assets\\index-AUcwMwxF.js\nassets\\index-S7xaJT_G.js\nassets\\index-qyWR0b1I.js", "useESM=true", "htmlElementName=train-tracker-web", "portletCategoryName=category.client-extensions" ],
+    "webContextPath" : "/train-tracker-web"
+  }
+}
